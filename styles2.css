@@ -1,0 +1,47 @@
+.background-fade {
+    background: linear-gradient(145deg, rgba(200, 200
+    , 255, 0.9), rgba(150, 230, 230, 0.801));
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border-radius: 20px; 
+}
+
+button {
+    background-color: rgba(26, 134, 7, 0.8); 
+}
+button:hover {
+    background-color: rgba(255, 159, 243, 0.8); 
+    box-shadow: 0 0 15px rgba(255, 159, 243, 0.8); 
+}
+button:focus {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(3); }
+}
+
+article a:hover{
+    transition: color 0.3s ease;
+    color: #ff4500; 
+}
+
+.background-fade a:hover {
+    transition: color 0.3s ease;
+    color: #ff4500; 
+}
+
+img {
+    animation: rotate 10s linear;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
